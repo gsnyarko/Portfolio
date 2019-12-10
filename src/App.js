@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
-import About from './About.js'
-import Footer from './Footer.js'
-import Header from './header.js'
+import Main from './main.js';
+import Footer from './Footer.js';
+import Header from './header.js';
+import SideMenu from './sideMenu';
 
 
 // Router not used yet
@@ -11,16 +11,20 @@ import Header from './header.js'
 function App() {
   return (
     <div className="App">
-      <Router>
-      </Router>
-      <div className='container'>
-        
         <Header />
-        <About />
+        <SideMenu />
+        <Main />
         <Footer />
-      </div>
     </div>
   );
 }
 
 export default App;
+
+
+/*<div class="grid-container">
+  <header class="header"></header>
+  <aside class="sidenav"></aside>
+  <main class="main"></main>
+  <footer class="footer"></footer>
+</div>*/

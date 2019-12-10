@@ -1,0 +1,18 @@
+.main-container {
+    display: grid;
+
+}
+
+
+
+#photo {
+    justify-items: center;
+    background-image:
+      url('./images/gilbrater.jpg');
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 80vh;
+    position: bottom;
+    
+  }

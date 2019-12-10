@@ -21,11 +21,11 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-box1-item">
-            <a href="mailto:gsnyarko@gmail.com"> Email </a>
+            <a href="mailto:gsnyarko@gmail.com">Email</a>
           </div>
         </div>
         <div className="footer-box2">
-          <p> Made by Gideon Nyarko 2019 </p>
+          <p> Made by Gideon Nyarko 2020 </p>
         </div>
       </div>
     </div>

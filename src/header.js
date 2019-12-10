@@ -1,15 +1,12 @@
 import React from "react";
 import "./App.css";
-import './header.css'
+import './header.css';
 
 const Header = () => {
   return (
     <div className="section-header" id="home">
       <div className='nav'>
-  <div className='nav-item'><a href="default.asp">Home</a></div>
-  <div className='nav-item'><a href="news.asp">About Me</a></div>
-  <div className='nav-item'><a href="contact.asp">Skills</a></div>
-  <div className='nav-item'><a href="about.asp">Projects</a></div>
+  
 
   <div className="navi-icons">
           <div>
@@ -60,14 +57,7 @@ const Header = () => {
           </div>
         </div>
     </div> 
-    <div className='photo'>
-      
-      <div className="line-1 anim-typewriter">
-          <h1>GIDEON NYARKO</h1>
-          <h2>Europe Based</h2>
-          <h2>Full-Stack Software Developer</h2>
-          </div>
-      </div>
+    
     </div>
   );
 };

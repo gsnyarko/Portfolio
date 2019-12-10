@@ -3,7 +3,7 @@ import './App.css';
 
 export default function About() {
     return (
-        <div>
+        <div id='about'>
             <h2>About me</h2>
             <p>
         Hi. My name is Gideon. I am ambitious and enthusiastic software
@@ -17,12 +17,13 @@ export default function About() {
         JavaScript, HTML5, CSS3.
         <br />
         <br />
+        </p>
+
         <h2>COURSES</h2>
-        <br />
+        
          <a href="https://www.kodiri.com/bootcamp">Kodiri</a> bootcamp from October to December 2019
-        <br />
-        <br />
-      </p>
+        
+      
         </div>
     );
 }

@@ -1,0 +1,8 @@
+.skills-container {
+    display: flex;
+}
+
+img {
+    flex: 1;
+    height: 150px;
+}
