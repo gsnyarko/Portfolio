@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-box2">
-          <p> Made by Gideon Nyarko 2020 </p>
+          <p> by Gideon Nyarko 2020 </p>
         </div>
       </div>
     </div>

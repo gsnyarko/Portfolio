@@ -6,20 +6,20 @@ export default function About() {
         <div id='about'>
             <h2>About me</h2>
             <p>
-        Hi. My name is Gideon. I am ambitious and enthusiastic software
-        developer. I have experience in working for a number of
-        technology companies in different capacities however I have decided to
-        focus on full stack software development. My approach to work is
+        Hi. My name is Gideon. A Ghanaian based in europe for the past 17 years, in Italy to be specific. 
+        I am ambitious and enthusiastic 'Wannabe' software
+        developer. I have experience in working with software development
+        technologies.My approach to work is
         accuracy and working hard to achieve the goals.
         <br />
         <br />
         I have experience working with number of technologies including React,
-        JavaScript, HTML5, CSS3.
+        JavaScript, HTML5, CSS3, NODEjs, MongoDB, Git
         <br />
         <br />
         </p>
 
-        <h2>COURSES</h2>
+        <h3>COURSES</h3>
         
          <a href="https://www.kodiri.com/bootcamp">Kodiri</a> bootcamp from October to December 2019
         

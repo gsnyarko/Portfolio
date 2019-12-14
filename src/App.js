@@ -2,8 +2,10 @@ import React from 'react';
 import './App.css';
 import Main from './main.js';
 import Footer from './Footer.js';
+import Projects from './projects';
 import Header from './header.js';
-import SideMenu from './sideMenu';
+import Skills from './skills';
+import About from './About.js';
 
 
 // Router not used yet
@@ -12,8 +14,10 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <SideMenu />
         <Main />
+        <About />
+        <Skills />
+        <Projects  />
         <Footer />
     </div>
   );

@@ -1,9 +1,9 @@
-.main-container {
+.main {
     display: grid;
+    margin-top: 50px;
+    width: 100%;
 
 }
-
-
 
 #photo {
     justify-items: center;
@@ -12,7 +12,30 @@
     background-position: center;
     /* background-attachment: fixed; */
     background-size: cover;
-    height: 80vh;
-    position: bottom;
+    height: 100vh;
+
     
   }
+  .line-1 {
+    text-align: center;
+  }
+
+  
+  .anim-typewriter {
+    animation: typewriter 1s steps(44) 1s 1 normal both;
+               text-align: center;
+               
+
+  }
+  @keyframes typewriter{
+    from{width: 0;
+    display: none;
+  opacity: 0;}
+    to{width: 100%;
+    font-size: 30px;
+  color: rgb(152, 146, 138);}
+  
+  }
+  
+  
+ 

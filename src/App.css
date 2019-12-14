@@ -1,31 +1,31 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-columns: 140px 1fr;
-  grid-template-rows: 50px 1fr 50px;
-  grid-template-areas:
-    "head head"
-    "side main"
-    "foot foot";
-}
-
-.section-header {
-  grid-area: head;
-  background: darkred;
- 
-}
-
-.sidenav {
-  grid-area: side;
-}
-
-.main-container{
-  grid-area: main;
+  width: 100vw;
   
 }
-.section-footer {
-  grid-area: foot;
+
+#about {
+  margin-top: 5%;
 }
+
+#projects {
+  display: flex;
+}
+
+.P-item {
+  flex: 1;
+  border: 1px solid rgb(53, 53, 58);
+  padding: 20px;
+  background: rgb(130, 125, 119);
+}
+
+@media only screen and(max-width: 600px) {
+   
+    .P-item {
+      flex-direction: column;
+    }
+  }
 
 
 
