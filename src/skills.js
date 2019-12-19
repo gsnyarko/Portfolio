@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import './skills.css'
-import css3 from './images/Css3.png';
-import html from './images/Html5.png';
-import javascript from './images/javascript.jpg';
-import react from './images/react.png';
-import typescript from './images/typescript.png';
+import html from './images/icons8-html-90.png';
+import javascript from './images/icons8-javascript-logo-100.png';
+import react from './images/icons8-react-200.png';
+import mongodb from './images/icons8-mongodb-96.png';
+import nodejs from './images/icons8-nodejs-96.png';
+import css3 from './images/icons8-css3-100.png';
 
 
 
@@ -17,8 +18,9 @@ export default function Skills() {
         <img src={html} alt=' '></img>
         <img src={javascript} alt=' '></img>
         <img src={react} alt=' '></img>
-        <img src={typescript} alt=' '></img>
-        <img scr={css3} alt=' '></img>
+        <img src={nodejs} alt=' '></img>
+{/* <img scr={css3} alt=' '></img> */ }
+        <img src={mongodb} alt=' '></img>
         </div>
         </div>
     );
