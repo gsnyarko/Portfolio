@@ -18,9 +18,7 @@ export default function About() {
         <br />
         <br />
         </p>
-
-        <h3>COURSES</h3>
-        
+        <h4>COURSES</h4>
          <a href="https://www.kodiri.com/bootcamp">Kodiri</a> bootcamp from October to December 2019
         
       

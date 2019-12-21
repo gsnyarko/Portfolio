@@ -1,5 +1,10 @@
+#skills {
+    margin-top: 6%;
+}
+
 .skills-container {
     display: flex;
+    
 }
 
 img {

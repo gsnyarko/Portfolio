@@ -6,7 +6,7 @@ import javascript from './images/icons8-javascript-logo-100.png';
 import react from './images/icons8-react-200.png';
 import mongodb from './images/icons8-mongodb-96.png';
 import nodejs from './images/icons8-nodejs-96.png';
-import css3 from './images/icons8-css3-100.png';
+//import css3 from './images/icons8-css3-100.png';
 
 
 
