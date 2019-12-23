@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  display: grid;
-  width: 100vw;
+  width: 100%;
   
 }
 
@@ -9,15 +8,19 @@
   margin-top: 6%;
   font-family: sans-serif;
   font-size: 25px;
+  width: 100vw;
 }
 
-#projects {
+.project {
   margin-top: 6%;
-  display: grid;
+  width: 100vw;
+  font-size: 25px;
 }
 
 .pproj {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .P-item {

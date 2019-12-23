@@ -10,24 +10,24 @@ export default function Projects() {
     <>
     
     
-    <div id='projects'>
-      <h2>Project</h2>
+    <div className='project' id='projects'>
+      <h2>Projects</h2>
     <div className='pproj'>
     <div className='P-item kodiri'>
         <h4>Kodiri-Kodflix</h4>
-        <a href ='https://gideonkodflix.herokuapp.com/'>
+        <a href ='https://gideonkodflix.herokuapp.com/' target="_blank" rel="noopener noreferrer">
         <img src={Kodflix} alt=''></img>
         </a>
     </div>
     <div className='P-item teamapp'>
        <h4>myTeam-App</h4>
-       <a href='https://kodirifootapp.herokuapp.com/'>
+       <a href='https://kodirifootapp.herokuapp.com/' target="_blank" rel="noopener noreferrer">
        <img src={Foot} alt=''></img>
        </a>
      </div>
      <div className='P-item workshop'>
        <h4>Student Workshop</h4>
-       <a href='https://www.youtube.com/watch?v=lfmxBR_9ucY'>
+       <a href='https://www.youtube.com/watch?v=lfmxBR_9ucY' target="_blank" rel="noopener noreferrer">
           <img src={Reduce} alt=''></img>
           </a>
      </div>

@@ -1,9 +1,11 @@
 #skills {
     margin-top: 6%;
+    font-size: 25px;
 }
 
 .skills-container {
     display: flex;
+    flex-wrap: wrap;
     
 }
 

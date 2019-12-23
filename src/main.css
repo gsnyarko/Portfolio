@@ -7,18 +7,43 @@
 
 #photo {
     justify-items: center;
-    background-image:
-      url('./images/meetUp.png');
+      background-image:
+      url('./images/gilbrater.jpg'); 
     background-position: center;
     /* background-attachment: fixed; */
     background-size: cover;
     height: 100vh;
-
-    
+    animation-name: changepics;
+    animation-duration: 10s;
+     animation-iteration-count: 3;  
+     animation-direction: alternate; 
+    animation-timing-function: linear;
   }
+
+  @keyframes changepics {
+    20% {background-image: url('./images/meetUp.png')}
+    
+    40% {background-image: url('./images/focus.jpg')}
+    
+    60% {background-image: url('./images/standup.jpg')}
+
+    80% { background-image:url('./images/gideonN.png')} 
+    100% {background-image: url('./images/gilbrater.jpg')}
+  }
+   
+
   .line-1 {
     text-align: center;
-    padding-top: 10vw;
+    padding-top: 10vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(233, 236, 237);
+    }
+    .line-1 {
+      padding-top: 3vh;
+    }
   }
 
   
