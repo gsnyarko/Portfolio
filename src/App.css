@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  width: 100%;
+  /* width: 100vw;  */
   
 }
 
@@ -8,19 +8,19 @@
   margin-top: 6%;
   font-family: sans-serif;
   font-size: 25px;
-  width: 100vw;
+  /* width: 100vw;  */
 }
 
-.project {
+#projects {
   margin-top: 6%;
-  width: 100vw;
   font-size: 25px;
 }
 
 .pproj {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  /* width: 100vw; */
 }
 
 .P-item {
@@ -34,7 +34,9 @@
 @media only screen and(max-width: 600px) {
    
     .pproj {
-      flex-direction: column;
+      display: grid;
+
+      grid-gap: 0;
     }
     #about {
       margin-top: 10%;

@@ -1,12 +1,12 @@
 .section-footer {
     color: #fff;
     background-color: #555;
-    width: 100vw;
+    /* width: 100vw; */
   }
   
   .footer-container {
     display: flex;
-    width: 100vw;
+    /* width: 100%; */
     align-items: center;
     height: 10vh;
   }
@@ -15,7 +15,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    width: 50vw;
+    /* width: 50vw; */
   }
   
   .footer-box1-item {
@@ -30,7 +30,7 @@
   }
   
   .footer-box2 p {
-    width: 200px;
+    /* width: 200px; */
     font-family: "Damion", cursive;
     font-size: 20px;
     justify-content: flex-end;
@@ -44,7 +44,7 @@
       display: grid;
       
       justify-items: center;
-      width: 100%;
+      /* width: 100%; */
     }
   
     .footer-box2 {

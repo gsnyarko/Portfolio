@@ -1,11 +1,12 @@
 .main {
     display: grid;
     margin-top: 50px;
-    width: 100%;
+     /* width: 100vw; */
 
 }
 
 #photo {
+  width: 100%;
     justify-items: center;
       background-image:
       url('./images/gilbrater.jpg'); 
@@ -57,7 +58,7 @@
     from{width: 0;
     display: none;
   opacity: 0;}
-    to{width: 100%;
+    to{width: 100vw;
     font-size: 30px;
   color: rgb(255, 255, 255);}
   

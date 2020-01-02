@@ -12,10 +12,7 @@ export default function Main() {
           <h2>Europe Based</h2>
           <h2>Full-Stack Software Developer</h2>
           </div>
-      </div>
-       
-        
-        
+      </div>   
         </div>
     </>
     )

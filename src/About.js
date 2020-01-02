@@ -15,11 +15,10 @@ export default function About() {
         <br />
         I have experience working with number of technologies including React,
         JavaScript, HTML5, CSS3, NODEjs, MongoDB, Git
+        All these technologies were acquired during an 8 weeks intensive bootcamp i attended, the <a href="https://www.kodiri.com/bootcamp">Kodiri</a>bootcamp London.
         <br />
         <br />
         </p>
-        <h4>COURSES</h4>
-         <a href="https://www.kodiri.com/bootcamp">Kodiri</a> bootcamp from October to December 2019
         
       
         </div>
