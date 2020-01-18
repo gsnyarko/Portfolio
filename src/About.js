@@ -14,8 +14,8 @@ export default function About() {
         <br />
         <br />
         I have experience working with number of technologies including React,
-        JavaScript, HTML5, CSS3, NODEjs, MongoDB, Git
-        All these technologies were acquired during an 8 weeks intensive bootcamp i attended, the <a href="https://www.kodiri.com/bootcamp">Kodiri</a>bootcamp London.
+        JavaScript, HTML5, CSS3, NODEjs, MongoDB, Git.
+        All these technologies were acquired during an 8 weeks intensive bootcamp i attended, the <a href="https://www.kodiri.com/bootcamp">Kodiri</a>bootcamp in London.
         <br />
         <br />
         </p>

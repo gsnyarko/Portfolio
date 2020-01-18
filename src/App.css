@@ -11,33 +11,12 @@
   /* width: 100vw;  */
 }
 
-#projects {
-  margin-top: 6%;
-  font-size: 25px;
-}
 
-.pproj {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
-  /* width: 100vw; */
-}
 
-.P-item {
-  flex: 1;
-  border: 1px solid rgb(53, 53, 58);
-  padding: 20px;
-  /*background: rgb(130, 125, 119);*/
-  background-blend-mode: screen;
-}
+
 
 @media only screen and(max-width: 600px) {
    
-    .pproj {
-      display: grid;
-
-      grid-gap: 0;
-    }
     #about {
       margin-top: 10%;
       font-size: 50px;

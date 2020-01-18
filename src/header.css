@@ -1,10 +1,11 @@
 .nav {
+  position: absolute;
   list-style-type: none;
   opacity: 0.8;
   padding: 0;
   background-color: #333;
   top:0;
-  position: fixed;
+  position: sticky;
    width: 100%;  
  
 }

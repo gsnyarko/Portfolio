@@ -1,0 +1,62 @@
+.project {
+    margin-top: 6%;
+    font-size: 25px;
+   
+  }
+  
+  .pproj-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    
+    /* width: 100vw; */
+  }
+  .P-item {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    flex: 1;
+    border: none;
+    padding: 2px;
+    /*background: rgb(130, 125, 119);*/
+    /* background-blend-mode: overlay;  */
+  }
+  .pimage {
+      width: 100%;
+      height: auto;
+      transition: all 1s linear;
+      
+  }
+
+  .overlay {
+    position: absolute; 
+    bottom: -12px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(108, 116, 108);
+    color: white;
+    transition: bottom ease 1s;
+    opacity: 0;
+    font-size: 10px;
+  }
+  
+  .P-item:hover .overlay{
+    opacity: .9;
+    bottom: 0;
+  }
+
+  .P-item:hover .pimage  {
+    transform: scale(1.2);
+    
+}
+  
+
+  @media only screen and (max-width: 600px) {
+   
+    .pproj-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+}

@@ -20,7 +20,7 @@ export default function Skills() {
         <img src={react} alt='react'></img>
         <img src={nodejs} alt='node'></img>
         <img src={mongodb} alt='mongo'></img>
-        <img className='thecss'scr={css3} alt='css'></img> 
+        <img scr={css3} className='thecss' alt='css'></img> 
         </div>
         </div>
     );
