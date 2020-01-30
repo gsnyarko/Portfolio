@@ -1,13 +1,15 @@
-.project {
+#projects {
     margin-top: 6%;
     font-size: 25px;
-   
   }
   
   .pproj-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
+    overflow: hidden;
+    
+    
     
     /* width: 100vw; */
   }
@@ -25,7 +27,7 @@
       width: 100%;
       height: auto;
       transition: all 1s linear;
-      
+         
   }
 
   .overlay {

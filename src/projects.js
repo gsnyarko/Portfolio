@@ -9,7 +9,7 @@ import site from './images/shop site.png';
 export default function Projects() {
     return (
     <>
-    <div className='project' id='projects'>
+    <div  id='projects'>
       <h2>Projects</h2>
     <div className='pproj-container'>
     <div className='P-item'>
@@ -37,7 +37,9 @@ export default function Projects() {
             </div>
      </div>
      <div className='P-item'>
+       <a href='https://gideonstore.netlify.com/' target="_blank" rel="noopener noreferrer">
        <img src={site} alt='e-commence' className='pimage' ></img>
+       </a>
        <div className='overlay'>
                 <h1>E-COMMERCE</h1>
             </div>

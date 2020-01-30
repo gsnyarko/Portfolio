@@ -15,12 +15,12 @@ export default function Skills() {
         <div id='skills'>
             <h2>Skills</h2>
         <div className='skills-container'>
-        <img src={html} alt='html'></img>
         <img src={javascript} alt='javascript'></img>
+        <img src={html} alt='html'></img>
+        <img src={css3} alt='css'></img> 
         <img src={react} alt='react'></img>
         <img src={nodejs} alt='node'></img>
         <img src={mongodb} alt='mongo'></img>
-        <img scr={css3} className='thecss' alt='css'></img> 
         </div>
         </div>
     );
